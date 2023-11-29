@@ -99,7 +99,7 @@ function App() {
         <p className='winner-div'>
           {winner? 
           (
-            <h2 className='text-center winner-text'>🎉🎊 congratulation you are winner  🥳🎊 {winner===1? 'player 1 ❌ ':'player 2 ⭕'}
+            <h2 className='text-center winner-text'> congratulation you are winner  ⭐⭐🎊 {winner===1? 'player 1 ❌ ':'player 2 ⭕'}
             
             </h2>):null}
         </p>
