@@ -121,7 +121,7 @@ function App() {
             <div className='box' onClick={() => { play(9) }}>{board[9]}</div>
           </div>
         </div>
-        <button className='btn-ngame' type='button' onClick={reset}>Reset</button>
+        <button className='btn-ngame' type='button' onClick={reset}>Restart Game</button>
       </div>
     )
   }
